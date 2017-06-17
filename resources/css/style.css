@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  margin: 0px;
+}
+
+.header {
+  flex-wrap: nowrap;
+  display: inline-flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+
+.logo {
+  display: inline-flex;
+  align-items: center;
+}
+
+.logo img {
+
+}
+
+.logo p {
+  padding: 20px;
+}
+
+.navbar {
+}
