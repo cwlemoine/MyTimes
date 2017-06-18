@@ -4,26 +4,37 @@
 }
 
 .header {
+  height: 80px;
   flex-wrap: nowrap;
   display: inline-flex;
   justify-content: space-between;
   width: 100%;
   align-items: center;
   border-bottom: 1px solid black;
+  font-family: Verdana;
+  font-weight: bold;
+  font-size: 14px;
 }
 
 .logo {
   display: inline-flex;
   align-items: center;
+  padding-left: 30px;
 }
 
 .logo img {
-
 }
 
 .logo p {
-  padding: 20px;
+  padding-left: 12px;
+  color: mediumaquamarine;
 }
 
-.navbar {
+nav {
+  padding-right: 40px;
+}
+
+nav a {
+  padding: 20px 10px;
+  color: black;
 }
