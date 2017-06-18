@@ -1,9 +1,8 @@
-.container {
-  display: flex;
+body {
   margin: 0px;
 }
 
-.header {
+header {
   height: 80px;
   flex-wrap: nowrap;
   display: inline-flex;
@@ -37,4 +36,32 @@ nav {
 nav a {
   padding: 20px 10px;
   color: black;
+}
+
+main {
+  display: flex;
+  border: 3px solid black;
+}
+
+.column {
+  flex-direction: column;
+  display: flex;
+  border: 2px dashed blue;
+  margin-right: 32px;
+}
+
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
+}
+
+.article {
+  border: 1px solid red;
 }
