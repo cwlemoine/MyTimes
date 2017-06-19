@@ -24,12 +24,14 @@
     </header>
 
 <!--Main content of page -->
-    <main id="content" role="main">
+    <div class="main" id="content" role="main">
 
       <div class="column large"> <!-- Column 1 -->
         <!--Article 1 -->
-        <div class="article">
-          <h3>Mother of Three Buys Tuna Steak at Phish Concert. Leaves, "Feeling Funny."</h3>
+        <div class="article story-main">
+          <div class="imagebox-1">
+            <h3>Mother of Three Buys Tuna Steak at Phish Concert. Leaves, "Feeling Funny."</h3>
+          </div>
           <p>MONUMENT VALLEY, AZ - Lorem ipsum dolor sit amet, consectetur
             adipiscing elit. Pellentesque nec nisl at augue dapibus dignissim.
             Nunc condimentum rutrum metus, ac eleifend lacus viverra nec. Proin
@@ -44,24 +46,43 @@
             amet fringilla massa.</p>
         </div>
           <!--Article 2 -->
-        <div class="article">
-          <h3>Orca Spends Vacation at Land World Puget</h3>
-          <p>PUGET, SO - Sed felis elit, faucibus et ipsum vel, vehicula ultrices
-            purus. Sed congue odio vitae malesuada rhoncus. Integer vitae nisi
-            pulvinar ante accumsan...</p>
-        </div>
+        <div class="subcols">
+          <div class="article subcol1">
+            <div class="story-1a">
+              <h2>Orca Spends Vacation at Land World Puget</h3>
+                <p>PUGET, SO - Sed felis elit, faucibus et ipsum vel, vehicula ultrices
+                  purus. Sed congue odio vitae malesuada rhoncus. Integer vitae nisi
+                  pulvinar ante accumsan...
+                </p>
+              </div>
+              <div class="story-1b">
+                <div class="imagebox-2">
+                  <h3>Earth Spins Backwards for 2017</h2>
+                </div>
+              </div>
+            </div>
             <!--Article 3 -->
-        <div class="article">
-          <h3>Burger for Breakfast: How Early is too Early?</h3>
-          <p>Mew York, MYâInterdum et malesuada fames ac ante ipsum primis in
-            faucibus. Pellentesque id quam facilisis, ultrices ante ut, rutrum
-            enim. Praesent eu nisl erat.</p>
+          <div class="article subcol2">
+            <div class="story-2a">
+              <h2>Burger for Breakfast: How Early is too Early?</h3>
+                <p>Mew York, MYâInterdum et malesuada fames ac ante ipsum primis in
+                  faucibus. Pellentesque id quam facilisis, ultrices ante ut, rutrum
+                  enim. Praesent eu nisl erat.
+                </p>
+            </div>
+            <div class="story-2b">
+              <div class="imagebox-3">
+                <h3>Research Shows Cameras Erase Memory</h2>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
+
       <div class="column medium"> <!-- Column 2 -->
         <!-- Article 4 -->
         <div class="article">
-          <h3>FBI Finds Action Star Guilty of False Advertising</h3>
+          <h2>FBI Finds Action Star Guilty of False Advertising</h2>
           <p>WASHINGTON DC- Donec luctus sem augue, rutrum posuere orci aliquam
             sed. Nam vitae aliquam lectus. Sed tempor tortor est, nec sagittis
             eros tincidunt sed. Morbi venenatis condimentum sem, vitae sollicitudin
@@ -72,8 +93,10 @@
             blandit aliquam felis...</p>
         </div>
           <!-- Article 5 -->
-        <div class="article">
-          <h3>Cats in Control-Is It a Thing?</h3>
+        <div class="article story-3">
+          <div class="imagebox-4">
+            <h3>Cats in Control-Is It a Thing?</h3>
+          </div>
           <p>BROOKLYN, NY- In molestie nulla sodales sit amet. Proin vulputate,
             ipsum porta aliquam commodo, nunc nibh tincidunt lorem, vel consectetur
             neque mi vel neque. Mauris ultricies, nulla scelerisque sollicitudin
@@ -85,7 +108,7 @@
         <!-- Article 6 -->
         <div class="article">
           <img src="./resources/images/img-news-bite.png">
-          <h3>NEWS BITES</h3>
+          <h2 class="newsbites">NEWS BITES</h2>
           <div class="newsbites">
             <span class="bite">Cat Emoji Goes Viral</span>
             <span class="bite">Buy Youtube Views</span>
@@ -96,9 +119,21 @@
           </div>
         </div>
       </div>
-    </main>
+    </div>
 
     <footer>
+      <div class="info">
+        <span class="title">My Times</span>
+          <nav class="footernav">
+            <a href="link.com">World</a>
+            <a href="link.com">U.S.</a>
+            <a href="link.com">Tech</a>
+            <a href="link.com">Science</a>
+          </nav>
+      </div>
+      <div class="copyright">
+        &copy; 2016, My Times (A Division of Codecademy bite)
+      </div>
     </footer>
 
   </body>
